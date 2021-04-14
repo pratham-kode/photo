@@ -1,0 +1,57 @@
+
+.header{
+    margin: 5px;
+    margin-left: 15px;
+}
+.info{
+    font-size: 22px;
+    margin: 25px;
+}
+.icon{
+    float: left;
+    height: 200px;
+    margin: 10px;
+    
+}
+.headline{
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.links{
+  text-align: center;
+  background: black;
+  margin: 20px 500px;
+  padding: 20px;
+  font-size: 20px;
+}
+.image{
+    height: 500px;
+    margin: auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+h3{
+    margin: 25px;
+    font-size: 30px;
+}
+.alignleft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 480px) {
+
+.info{
+    font-size: 15px;
+}
+.image{
+    height: 180px;
+}
+
+}
